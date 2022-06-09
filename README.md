@@ -1,4 +1,4 @@
-# Práctica de App Service para despliegue de una página estática web usando Azure de Microsoft.
+# Práctica de Azure Functions.
 
 ![Functions Icon](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/azure-functions-icon.png)
 
