@@ -3,7 +3,7 @@
 ![Functions Icon](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/azure-functions-icon.png)
 
 ## Breve descripción
-Azure Functions es una es un servicio de tipo [PaaS](https://azure.microsoft.com/es-mx/overview/what-is-paas/) y [Serverless](https://azure.microsoft.com/en-us/solutions/serverless/#overview) que se ejecuta en la [nube](https://azure.microsoft.com/es-mx/overview/what-is-the-cloud/) de Azure y ésta  permite hacer microservicios o API's, pero no realiza la funcióin de ***BACKEND***. Se encuentra en el [portal de Azure](https://portal.azure.com/#home). Para más información, se puede consultar la siguiente [página](https://azure.microsoft.com/en-us/services/functions/#features) proporcionada por Azure.
+Azure Functions es una es un servicio de tipo [PaaS](https://azure.microsoft.com/es-mx/overview/what-is-paas/) y [Serverless](https://azure.microsoft.com/en-us/solutions/serverless/#overview) que se ejecuta en la [nube](https://azure.microsoft.com/es-mx/overview/what-is-the-cloud/) de Azure y ésta  permite hacer microservicios o API's, pero no realiza las funciones enteras de ***BACKEND***. Se encuentra en el [portal de Azure](https://portal.azure.com/#home). Para más información, se puede consultar la siguiente [página](https://azure.microsoft.com/en-us/services/functions/#features) proporcionada por Azure.
 
 
 -----------
