@@ -13,7 +13,7 @@ Azure Functions es un servicio de tipo [PaaS](https://azure.microsoft.com/es-mx/
 
 ----------
 
-## Instrcuciones
+## Instrucciones
 
 1. Entrar a la [página de Azure](https://portal.azure.com/#home) y buscar  la opción **Azure Functions**.
 
