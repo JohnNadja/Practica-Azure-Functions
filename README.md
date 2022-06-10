@@ -24,12 +24,12 @@ Azure Functions es un servicio de tipo [PaaS](https://azure.microsoft.com/es-mx/
 
         |Tipo|Realizar|
         |---|---|
-        |Grupo de datos|Seleccionar el grupo de recursos al que se le asingnará *Functions*.SI no existe, se puede crear uno. Ejemplo: PrácticaAzureFunctions|
+        |Grupo de recursos|Seleccionar el grupo de recursos al que se le asingnará *Functions*.Si no existe, se puede crear uno. Ejemplo: PrácticaAzureFunctions|
         |Nombre|Introducir el nombre de la función|
         |Publicar|Seleccionar la opción **Código**|
-        |Pila de entorno|Es el tipo de lenguaje que ejecutará la aplicación|
+        |Pila de entorno|Es el tipo de lenguaje que ejecutará la aplicación. Para este caso, será "**Node.js**"|
         |Región|Seleccionar la región más cercana que esté disponible|
-        |Sistema operativo|Seleccionar la opción **Windows** para esta proáctica|
+        |Sistema operativo|Seleccionar la opción **Windows** para esta práctica|
         |Tipo de plan|Consumo (sin servidor)|
     - Esperamos a que cree cuando se activa la opción de "Revisar y crear".
     ![2.2](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/2.2.png)
