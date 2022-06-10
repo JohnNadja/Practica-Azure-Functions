@@ -34,7 +34,7 @@ Azure Functions es un servicio de tipo [PaaS](https://azure.microsoft.com/es-mx/
     - Esperamos a que cree cuando se activa la opción de "Revisar y crear".
     ![2.2](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/2.2.png)
 
-3. Una vez creada la función, se ingresa al recurso y se busca en el menu lateral la opción **Funciones** para crear una nueva instancia.
+3. Una vez creada la función, se ingresa al recurso y se busca en el menú lateral la opción **Funciones** para crear una nueva instancia.
     ![3.1](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/3.1.png)
     - Para esta ocasión, se utilizará la plantilla de ***HTTP Trigger***.
     ![3.2](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/3.2.png)
@@ -55,3 +55,19 @@ Se puede hacer desde el panel de Azure en inicio y buscando el tipo de recurso q
 
 
 ## Hasta aquí la finalización de la práctica.
+
+### Extra: Otra manera de hacer un testeo de la función.
+
+Se puede realizar pruebas con un sitio web ajerno a Azure. Para ello, se debe 
+hacer los siguiente:
+- Ingresar al siguiente [enlace](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm). Es una extensión gratuita y segura que nos permitirá realizar la prueba.
+- Una vez instalada, se accede a dicha extensión y se colocará nuestro link del servicio de Azure Functions. ëste se consigue en la página de Azure Functions, para ser específicos, en nuestro *HttpTrigger*.
+![extra1](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/extra1.png)
+- Se copia dicha dirección seguid de conseguir la ***Clave de función*** (ésta se puede conseguir en el panel lateral como se muestra en la imagen) Es importante ya que nos permite acceder correctamente al trigger.
+![extra2](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/extra2.png)
+- Una vez copiado, nos dirigimos a talend para realizar la prueba. Ahí colocamos tanto el URL (en *SCHEME*) como la clave de función. en los parámteos de la prueba.
+Hay un HEADER especial que nos permite acceder a la clave de función: `x-functions-key` para así poder colocar la clave.
+![extra3](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/extra3.png)
+
+- Pulsamos el botón *SEND* y tendremos de resultado lo siguiente
+![extra4](https://github.com/JohnNadja/Practica-Azure-Functions/blob/main/images/extra4.png)
